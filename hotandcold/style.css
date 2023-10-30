@@ -6,3 +6,15 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blue;
 }
+
+@media (max-width: 600px) {
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1025px) {
+    p {
+        font-size: 25px;
+    }
+}
